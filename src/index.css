@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  overscroll-behavior: none;
+  background-color: black;
+}
+
+body *:not(input):not(textarea) {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input,
+textarea {
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
