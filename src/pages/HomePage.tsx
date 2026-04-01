@@ -7,7 +7,6 @@ import ContentSection from "../components/layout/ContentSection";
 import Nexus from "../assets/images/nexus.png";
 import ResearchLinksSection from "../components/layout/ResearchLinksSection";
 import CountDataSection from "../components/layout/CountDataSection";
-// import AnalysisSection from "../components/layout/AnalysisSection";
 import { useScrollToSection } from "../hooks/useScrollToSection";
 import FooterSection from "../components/layout/FooterSection";
 
@@ -84,10 +83,6 @@ function HomePage() {
             <div className="w-full flex justify-center mt-8 lg:mt-30">
               <CountDataSection ref={countDataRef} />
             </div>
-
-            {/* <div className="w-full mt-12 lg:mt-20">
-              <AnalysisSection ref={sourcesLinkRef} />
-            </div> */}
 
             {/* ResearchLinksSection - Full width */}
             <div className="w-full mt-12 lg:mt-20">
