@@ -48,7 +48,7 @@ const CountDataSection = forwardRef<HTMLElement>((_, ref) => {
             Peningkatan akses gawai
           </p>
           <p className="text-[10px] lg:text-xs text-purple-400">
-            Dampak signifikan (2024)
+            Terus meningkat (2024)
           </p>
         </div>
 
@@ -77,7 +77,7 @@ const CountDataSection = forwardRef<HTMLElement>((_, ref) => {
       <div className="max-w-3xl mx-auto text-center mt-10 lg:mt-12 px-4">
         <p className="text-gray-300 text-sm lg:text-base leading-relaxed">
           Laporan ini menyoroti korelasi kritis antara tingginya akses gawai di
-          wilayah perkotaan (73,58%) dan perdesaan (60,18%) terhadap risiko
+          wilayah perkotaan (74,15%) dan perdesaan (60,78%) terhadap risiko
           kesehatan fisik serta mental pada{" "}
           <span className="text-cyan-400 font-semibold">
             44,07 juta generasi muda Indonesia.
